@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <Class name="HotelBooking.SocketHandler" x="68" y="179">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+        <Association destinationClassName="HotelBooking.ServerHOPP"
+            endpointName="fileServer" kind="Simple"/>
+        <Communication destinationClassName="HotelBooking.ServerHOPP"/>
+    </Class>
+    <Class name="HotelBooking.ServerHOPP" x="360" y="197">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+    <Class name="HotelBooking.Server" x="165" y="113">
+        <AttributesDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"/>
+        <MethodDisplayFilter public-accepted="true"
+            private-accepted="true" protected-accepted="true"
+            default-accepted="true" static-accepted="true"
+            accessors-accepted="true" constructors-accepted="true"/>
+    </Class>
+</ClassDiagram>
